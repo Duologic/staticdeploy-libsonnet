@@ -2,12 +2,19 @@
 
 Jsonnet library for https://staticdeploy.io/
 
-I have written this for exploratory purposes but should run just fine for production.
+## Usage
 
-## Example
+Install it with jsonnet-bundler:
+
+```console
+jb install https://github.com/Duologic/staticdeploy-libsonnet`
+```
+
+Import into your jsonnet:
 
 ```jsonnet
-local staticdeploy = import 'staticdeploy/main.libsonnet';
+local staticdeploy = import 'github.com/Duologic/staticdeploy-libsonnet/main.libsonnet';
+
 {
   staticdeploy:
     staticdeploy.new('localhost', name='my-staticdeploy')
