@@ -7,7 +7,7 @@ Jsonnet library for https://staticdeploy.io/
 Install it with jsonnet-bundler:
 
 ```console
-jb install https://github.com/Duologic/staticdeploy-libsonnet`
+jb install https://github.com/Duologic/staticdeploy-libsonnet
 ```
 
 Import into your jsonnet:
